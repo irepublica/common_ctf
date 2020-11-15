@@ -1,0 +1,6 @@
+# robots.txt, web_versions, 
+
+# common initial scans
+nmap -sC -sV -A [IP]
+gobuster dir -u http://<ip>:<port> -w [word list]
+
